@@ -1,0 +1,13 @@
+To compile, you can use the makefile. To use it, place yourself inside the folder and use:
+
+    make action ARG=CHARLOT_Rodolphe
+    or make action ARG=CHAR*
+   
+You can see what the program returns, and it compiles and gives the res of glpsol inside the foler "./glpsol".
+The result is inside the file "Res.dat", it uses "Data.dat"
+
+To see what is used, see inside the makefile.
+
+To see the code, you can see inside the .c files, called "qsort.c" and "solveRelaxation.c"
+
+
